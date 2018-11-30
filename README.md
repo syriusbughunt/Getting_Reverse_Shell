@@ -9,4 +9,4 @@ Now that netcat is successfully installed on your listener host, type: *nc -l -v
   
 You will find below different ways in obtaining a reverse shell in multiple langs.  
   
-## **Bash** &nbsp; <img src="https://raw.githubusercontent.com/syriusbughunt/Getting_Reverse_Shell/master/img/bash.jpg" width="20"/>
+## **Bash** &nbsp; <img src="https://raw.githubusercontent.com/syriusbughunt/Getting_Reverse_Shell/master/img/bourne_again.jpg" width="20"/>
